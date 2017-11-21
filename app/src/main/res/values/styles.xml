@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- CollapsingToolbarLayoutActivity主题：无标题-->
+    <style name="NoTitleTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <!-- Actionbar/toolbar color -->
+        <!--<item name="colorPrimary">@color/colorPrimaryDark</item>-->
+        <!--状态栏颜色 color-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimary</item>-->
+        <!--Window color-->
+        <item name="android:windowBackground">@color/white</item>
+        <!--修改Toolbar的navigation icon的padding值 -->
+        <item name="toolbarNavigationButtonStyle">@style/myToolbarNavigationButtonStyle</item>
+    </style>
+
+    <!--CollapsingToolbarLayout标题大小-->
+    <style name="CollapsingToolbarLayoutTitle" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!--修改Toolbar的navigation icon的padding值 -->
+    <style name="myToolbarNavigationButtonStyle" parent="@style/Widget.AppCompat.Toolbar.Button.Navigation">
+        <item name="android:minWidth">0dp</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+</resources>

@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="padding">12dp</dimen>
+    <dimen name="header_side_min_width">36dp</dimen>
+    <dimen name="header_height">44dp</dimen>
+</resources>
